@@ -14,10 +14,7 @@ public class RequestFormUI {
     public RequestFormUI() {
     }
 
-    /**
-     * 
-     */
-    public void   +reportIssue(unitID:int, description:String)() {
+    public void reportIssue(int unitID, String description) {
         // TODO implement here
     }
 

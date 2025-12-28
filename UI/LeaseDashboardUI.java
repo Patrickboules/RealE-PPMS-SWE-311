@@ -14,10 +14,7 @@ public class LeaseDashboardUI {
     public LeaseDashboardUI() {
     }
 
-    /**
-     * @param alerts
-     */
-    public void showLeaseAlert(void alerts) {
+    public void showLeaseAlert(List<Domain.Lease> alerts) {
         // TODO implement here
     }
 
@@ -25,7 +22,7 @@ public class LeaseDashboardUI {
      * @param rent 
      * @param duration
      */
-    public void proposeNewTerms(void rent, void duration) {
+    public void proposeNewTerms(double rent, int duration) {
         // TODO implement here
     }
 

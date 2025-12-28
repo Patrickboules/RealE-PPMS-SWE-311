@@ -14,39 +14,18 @@ public class Unit {
     public Unit() {
     }
 
-    /**
-     * 
-     */
     private int unitID;
-
-    /**
-     * 
-     */
     private String unitNumber;
-
-    /**
-     * 
-     */
     private double rentalPrice;
-
-    /**
-     * 
-     */
     private double area;
-
-    /**
-     * 
-     */
     private String status;
-
-
-
+    private int propertyID; // Relationship: Property -- Unit
 
     /**
      * @param status
      */
     public void setStatus(String status) {
-        // TODO implement here
+        this.status = status;
     }
 
 }

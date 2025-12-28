@@ -16,11 +16,9 @@ public class UnitDB {
     public UnitDB() {
     }
 
-    /**
-     * @param id
-     */
-    public void findByID(int id) {
+    public Domain.Unit findByID(int id) {
         // TODO implement here
+        return null;
     }
 
     /**

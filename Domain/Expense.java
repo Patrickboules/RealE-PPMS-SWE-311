@@ -14,29 +14,14 @@ public class Expense {
     public Expense() {
     }
 
-    /**
-     * 
-     */
     private int expenseID;
-
-    /**
-     * 
-     */
     private double amount;
-
-    /**
-     * 
-     */
     private String category;
-
-    /**
-     * 
-     */
     private Date date;
-
+    private int propertyID; // Relationship: Property -- Expense
 
     /**
-     * 
+     * @return
      */
     public void calculateNetProfit() {
         // TODO implement here

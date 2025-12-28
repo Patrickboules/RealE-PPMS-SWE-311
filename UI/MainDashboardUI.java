@@ -21,10 +21,7 @@ public class MainDashboardUI {
         // TODO implement here
     }
 
-    /**
-     * @param summaryData
-     */
-    public void renderDashboard(void summaryData) {
+    public void renderDashboard(Object summaryData) {
         // TODO implement here
     }
 

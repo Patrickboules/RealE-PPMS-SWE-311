@@ -1,12 +1,14 @@
 package Domain;
 
-import java.io.*;
-import java.util.*;
-
 /**
- * 
+ * Represents a property in the system.
  */
 public class Property {
+
+    private int propertyID;
+    private String address;
+    private String propertyType;
+    private int ownerID;
 
     /**
      * Default constructor
@@ -15,18 +17,55 @@ public class Property {
     }
 
     /**
-     * 
+     * Constructor with parameters
      */
-    private int propertyID;
+    public Property(String address, String propertyType, int ownerID) {
+        this.address = address;
+        this.propertyType = propertyType;
+        this.ownerID = ownerID;
+    }
 
-    /**
-     * 
-     */
-    private String address;
+    // Getters and Setters
 
-    /**
-     * 
-     */
-    private String propertyType;
+    public int getPropertyID() {
+        return propertyID;
+    }
 
+    public void setPropertyID(int propertyID) {
+        this.propertyID = propertyID;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getPropertyType() {
+        return propertyType;
+    }
+
+    public void setPropertyType(String propertyType) {
+        this.propertyType = propertyType;
+    }
+
+    public int getOwnerID() {
+        return ownerID;
+    }
+
+    public void setOwnerID(int ownerID) {
+        this.ownerID = ownerID;
+    }
+
+    @Override
+    public String toString() {
+        return "Property{" +
+                "propertyID=" + propertyID +
+                ", address='" + address + '\'' +
+                ", propertyType='" + propertyType + '\'' +
+                ", ownerID=" + ownerID +
+                '}';
+    }
 }

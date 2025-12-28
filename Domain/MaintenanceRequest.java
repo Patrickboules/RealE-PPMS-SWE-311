@@ -14,24 +14,10 @@ public class MaintenanceRequest {
     public MaintenanceRequest() {
     }
 
-    /**
-     * 
-     */
     private int requestID;
-
-    /**
-     * 
-     */
     private String issueDescription;
-
-    /**
-     * 
-     */
     private Date requestDate;
-
-    /**
-     * 
-     */
     private String status;
+    private int unitID; // Relationship: Unit -- MaintenanceRequest
 
 }
